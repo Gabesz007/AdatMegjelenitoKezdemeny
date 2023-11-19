@@ -28,9 +28,7 @@ function rendel(){
                     sor.appendChild(oszlop)  
                 }
             )
-
                     
-
             $('.container').appendChild(sor)
         }
 

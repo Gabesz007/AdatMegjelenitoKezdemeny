@@ -21,13 +21,9 @@ function rendel(){
             sor.className="row"
 
             oszlopok.forEach(
-                function(mezoNev){
-                    // head=document.createElement('div')
-                    // head.className="Headline"
-                    // head.innerHTML="Szia!"
+                function(mezoNev){ 
                     oszlop=document.createElement('div')
                     oszlop.className="col"
-                    // oszlop.appendChild(head)
                     oszlop.innerHTML=allat[mezoNev]
                     sor.appendChild(oszlop)  
                 }
